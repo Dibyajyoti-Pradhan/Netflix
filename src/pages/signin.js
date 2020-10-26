@@ -23,8 +23,6 @@ const SignIn = () => {
         history.push(ROUTES.BROWSE);
       })
       .catch((error) => {
-        setEmailAddress("");
-        setPassword("");
         setError(error.message);
       });
   };
