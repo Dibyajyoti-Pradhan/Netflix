@@ -69,7 +69,9 @@ Header.Profile = ({ children, ...restProps }) => (
   <Profile {...restProps}>{children}</Profile>
 );
 
-Header.Feature = ({ children, ...restProps }) => <Feature>{children}</Feature>;
+Header.Feature = ({ children, ...restProps }) => (
+  <Feature {...restProps}>{children}</Feature>
+);
 
 Header.Picture = ({ src, ...restProps }) => (
   <Picture {...restProps} src={`/images/users/${src}.png`} />
