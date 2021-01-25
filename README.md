@@ -11,4 +11,6 @@ A Netflix clone built from scratch.
 
 # Demo
 
+Website: https://dibyajyoti-pradhan-netflix.netlify.app
+
 ![Demo](demo.gif)
